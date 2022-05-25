@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       height:100vh;
+}
+
+#form-container{
+    background-color: azure;
+    padding: 50px;
+    text-align: center;
+
+}
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 222px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    border-radius: 100px;
+}
+h2{
+    margin: 0px 0px 10px 0px;
+}
+.error{
+    margin: 0px;
+    color: red;
+    text-align: left;
+}
